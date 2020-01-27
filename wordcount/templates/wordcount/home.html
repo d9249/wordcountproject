@@ -1,0 +1,9 @@
+<h1>워드카운트를 만들어봅시다.</h1>
+
+<a href="{% url 'about' %}">ABOUT</a>
+
+<FORM action="{% url 'count' %}">
+    <TEXTARea cols="40 " rows="10" name="fulltext"></TEXTARea>
+    <br>
+    <input type="submit" value="Count!" />
+</FORM>
